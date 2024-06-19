@@ -1,0 +1,25 @@
+{
+  "name": "grafikaprojekt",
+  "version": "1.0.0",
+  "description": "Renderer ludzi",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "live-server dist",
+    "build:watch": "webpack --watch"
+  },
+  "author": "Maja, Zofia",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.132.2"
+  },
+  "devDependencies": {
+    "@types/three": "^0.132.2",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.9.5",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
