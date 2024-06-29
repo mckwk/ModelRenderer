@@ -31,7 +31,7 @@ export class ModelHandler {
         let play = 'Idle';
         if (DIRECTIONS.some(key => keysPressed[key])) play = 'Walk';
         else if (keysPressed[' ']) play = 'Jump';
-        else if (keysPressed['x']) play = 'SpecialAction';
+        else if (keysPressed['x']) play = 'theFunOne';
 
         if (this.currentAction !== play) {
             this.switchAnimation(play);
